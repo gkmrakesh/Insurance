@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Insurance_Example' do
+  pod 'Insurance', :path => '../'
+
+  target 'Insurance_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
