@@ -1,3 +1,4 @@
+
 //
 //  ViewController.swift
 //  Insurance
@@ -7,17 +8,24 @@
 //
 
 import UIKit
+import Insurance
 
 class ViewController: UIViewController {
 
+    var viewController: InsuranceViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        let podBundle = Bundle(for: InsuranceViewController.self)
+        let bundleURL = podBundle.url(forResource: "Insurance", withExtension: "bundle")
+        let bundle = Bundle(url: bundleURL!)
+        
+        viewController = InsuranceViewController(nibName: "InsuranceViewController", bundle: bundle)
+        
+        viewController?.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+        self.view.addSubview((viewController?.view)!)
+        
     }
 
 }

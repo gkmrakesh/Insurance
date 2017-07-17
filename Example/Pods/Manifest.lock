@@ -1,0 +1,16 @@
+PODS:
+  - Insurance (1.0.0)
+
+DEPENDENCIES:
+  - Insurance (from `../`)
+
+EXTERNAL SOURCES:
+  Insurance:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Insurance: 6edd1bdd1375150d7d823dd458f2b576d5df70ab
+
+PODFILE CHECKSUM: b4035028b85304c63a57eaac657361e63ad4030d
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,27 @@
+{
+  "name": "Insurance",
+  "version": "1.0.0",
+  "summary": "`Insurance.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gkmrakesh/Insurance",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gkmrakesh": "rakesh.membaram@amadeus.com"
+  },
+  "source": {
+    "git": "https://github.com/gkmrakesh/Insurance.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Insurance/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "Insurance": [
+      "Insurance/**/*.xib"
+    ]
+  }
+}

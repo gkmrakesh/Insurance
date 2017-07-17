@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AE7A827B97EA1BCB2DF451811D97CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		065DE29303F49D1E87CFF7A7AC56CC09 /* InsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03306A6FE4E467834F207DD0DFA3CE5 /* InsuranceViewController.swift */; };
+		323415CC31DED8E649B707D0F66EA9BB /* Insurance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B428FF04BCBCA5761AFB90F3B418754 /* Insurance-dummy.m */; };
+		33816A452B6D10FA8602B91E3937C073 /* Insurance.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC76513B0A794BC0EC629D1A21621EC9 /* Insurance.bundle */; };
+		4664AF56DABBA2FF98BAB15A39012A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5A7BEF445D3F9C905B2D3E204E616F42 /* Pods-Insurance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4568FE076D6C20569D0016ED66DD4 /* Pods-Insurance_Example-dummy.m */; };
+		5AABB76C850BEC7339AB7B7AD08C5BE4 /* Pods-Insurance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B04063DB6A71A8FC6D7B0ACC5441B6AE /* Pods-Insurance_Tests-dummy.m */; };
+		9026D6F7B33ED85B6B06B3B2347A202A /* Pods-Insurance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 208BBBA124D36032BC6D680E1006C240 /* Pods-Insurance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9909FB6D9DB4443318526E233E7CFA6B /* Pods-Insurance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82621FCF121B495AC0F7EB50EBC2C6E9 /* Pods-Insurance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3FB9B9D19D48E11A1E4E3D749F9C90 /* InsuranceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0342223CD323E852C9EC74857CAF7F72 /* InsuranceViewController.xib */; };
+		AB9FF0171478238B3ED35C7683B58642 /* Insurance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15351FEA207E56BF051DE2D4DAD1717C /* Insurance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE493EF35A291C5E263D753B367E900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E21926FE8D9CD3B7E86B07679CA3ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8459A79F05F75787B9AAD19FEDD3215A;
+			remoteInfo = "Insurance-Insurance";
+		};
+		8961C85CDFD0F74D9566858DBB265E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15518DFBF5018417E922FE70FA255F2B;
+			remoteInfo = Insurance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0342223CD323E852C9EC74857CAF7F72 /* InsuranceViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = InsuranceViewController.xib; sourceTree = "<group>"; };
+		15351FEA207E56BF051DE2D4DAD1717C /* Insurance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Insurance-umbrella.h"; sourceTree = "<group>"; };
+		18E28AD6F55096C26631B7B4510F2FC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208BBBA124D36032BC6D680E1006C240 /* Pods-Insurance_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Insurance_Example-umbrella.h"; sourceTree = "<group>"; };
+		313569AF749C22EC3E54C30EF3880F70 /* Pods-Insurance_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Insurance_Example-resources.sh"; sourceTree = "<group>"; };
+		357FD313637C33A4C0AF639879DE78AA /* Pods-Insurance_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Insurance_Example.modulemap"; sourceTree = "<group>"; };
+		3832174228B3A4CAA6F96EB76BFA6987 /* Insurance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Insurance.xcconfig; sourceTree = "<group>"; };
+		4DD33B43C9A20C4BC88BA3AE78B21533 /* Pods-Insurance_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Insurance_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52CB30A7445F8B25087A72AAD3926448 /* Pods-Insurance_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Insurance_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		635D86781BCC3E5034CED13D87D5935E /* Pods-Insurance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insurance_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C798373D7B425EE03FA338BF8EA3BB0 /* Pods-Insurance_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Insurance_Tests.modulemap"; sourceTree = "<group>"; };
+		740D0C7F91AE509E1C303736364DE6AB /* ResourceBundle-Insurance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Insurance-Info.plist"; sourceTree = "<group>"; };
+		7B428FF04BCBCA5761AFB90F3B418754 /* Insurance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Insurance-dummy.m"; sourceTree = "<group>"; };
+		7FED106AD779293997408A872C42A429 /* Pods-Insurance_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insurance_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82621FCF121B495AC0F7EB50EBC2C6E9 /* Pods-Insurance_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Insurance_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9108A77AE172269D8831ECED26096BEF /* Pods-Insurance_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insurance_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9823D3BD66E8408A5DBA494305CA9F4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04063DB6A71A8FC6D7B0ACC5441B6AE /* Pods-Insurance_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Insurance_Tests-dummy.m"; sourceTree = "<group>"; };
+		B37E10181F28FF5551B101A65B0B552D /* Pods-Insurance_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Insurance_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B5045305BB4D140F043293C658ECAB0F /* Pods-Insurance_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insurance_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD1CAFCDA0A7989E0990D3A5ED846BCB /* Pods-Insurance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insurance_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BD5E4DEC8553344995C1947C00C23ED6 /* Pods-Insurance_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Insurance_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C03306A6FE4E467834F207DD0DFA3CE5 /* InsuranceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InsuranceViewController.swift; sourceTree = "<group>"; };
+		C0953B514FCBC01015F0496B321825DD /* Insurance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Insurance-prefix.pch"; sourceTree = "<group>"; };
+		C432047910E4D76E8D6BD941127AEBBD /* Pods-Insurance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insurance_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D07B7178B51DF2D742B33814CAD0D312 /* Pods_Insurance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Insurance_Tests.framework; path = "Pods-Insurance_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D4767AE62401E91D19A31C5D3F5B2D /* Insurance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Insurance.framework; path = Insurance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91385B95230A642C8DF627DB59202D9 /* Pods_Insurance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Insurance_Example.framework; path = "Pods-Insurance_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76F3E8C533039BCC32D5254635E5AB /* Pods-Insurance_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Insurance_Tests-resources.sh"; sourceTree = "<group>"; };
+		F4F320EF30C6ACA6CC19A879C00B79DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF4568FE076D6C20569D0016ED66DD4 /* Pods-Insurance_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Insurance_Example-dummy.m"; sourceTree = "<group>"; };
+		FC76513B0A794BC0EC629D1A21621EC9 /* Insurance.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Insurance.bundle; path = Insurance.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD590EB67B6818120B9F16964B2A0EF7 /* Insurance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Insurance.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E28C7436426A48E6EE319292EDF1B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4664AF56DABBA2FF98BAB15A39012A27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6892BF39EC66CFF16DCE451B477FF64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE493EF35A291C5E263D753B367E900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA94D11925F68626B294F7449E72A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE7A827B97EA1BCB2DF451811D97CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C40BCA40B12DD480BD7D3DFFBA4C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0202E86AFE8730ECCB573E3C86C58301 /* Pods-Insurance_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9823D3BD66E8408A5DBA494305CA9F4B /* Info.plist */,
+				357FD313637C33A4C0AF639879DE78AA /* Pods-Insurance_Example.modulemap */,
+				52CB30A7445F8B25087A72AAD3926448 /* Pods-Insurance_Example-acknowledgements.markdown */,
+				B5045305BB4D140F043293C658ECAB0F /* Pods-Insurance_Example-acknowledgements.plist */,
+				FAF4568FE076D6C20569D0016ED66DD4 /* Pods-Insurance_Example-dummy.m */,
+				B37E10181F28FF5551B101A65B0B552D /* Pods-Insurance_Example-frameworks.sh */,
+				313569AF749C22EC3E54C30EF3880F70 /* Pods-Insurance_Example-resources.sh */,
+				208BBBA124D36032BC6D680E1006C240 /* Pods-Insurance_Example-umbrella.h */,
+				C432047910E4D76E8D6BD941127AEBBD /* Pods-Insurance_Example.debug.xcconfig */,
+				BD1CAFCDA0A7989E0990D3A5ED846BCB /* Pods-Insurance_Example.release.xcconfig */,
+			);
+			name = "Pods-Insurance_Example";
+			path = "Target Support Files/Pods-Insurance_Example";
+			sourceTree = "<group>";
+		};
+		3F726F9EC65071939A70F33DAE60CB02 /* Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				C61AB6EF711544A7190BEBF7FC1839DE /* Insurance */,
+				617D648CF4EE3FD43FC7B28A7BE720A3 /* Resources */,
+				96BDC5A374FF9E61F606D17A1915338B /* Support Files */,
+			);
+			name = Insurance;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4CC4EA55F8465802B2F4B4FBA4752B33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0202E86AFE8730ECCB573E3C86C58301 /* Pods-Insurance_Example */,
+				C8E251E20C5A6610ECFB1C77B843EDAB /* Pods-Insurance_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		617D648CF4EE3FD43FC7B28A7BE720A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF1503DB9E6777D2FBE8B1C1CB31EA55 /* Insurance */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		66B131E21F6A647F7F50AD6339195E8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F726F9EC65071939A70F33DAE60CB02 /* Insurance */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				66B131E21F6A647F7F50AD6339195E8D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DCDBC0D10315CB382BB616ACD7CAB139 /* Products */,
+				4CC4EA55F8465802B2F4B4FBA4752B33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96BDC5A374FF9E61F606D17A1915338B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E28AD6F55096C26631B7B4510F2FC4 /* Info.plist */,
+				FD590EB67B6818120B9F16964B2A0EF7 /* Insurance.modulemap */,
+				3832174228B3A4CAA6F96EB76BFA6987 /* Insurance.xcconfig */,
+				7B428FF04BCBCA5761AFB90F3B418754 /* Insurance-dummy.m */,
+				C0953B514FCBC01015F0496B321825DD /* Insurance-prefix.pch */,
+				15351FEA207E56BF051DE2D4DAD1717C /* Insurance-umbrella.h */,
+				740D0C7F91AE509E1C303736364DE6AB /* ResourceBundle-Insurance-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Insurance";
+			sourceTree = "<group>";
+		};
+		B68210A52594565B28B4866E994A3296 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C03306A6FE4E467834F207DD0DFA3CE5 /* InsuranceViewController.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C61AB6EF711544A7190BEBF7FC1839DE /* Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				B68210A52594565B28B4866E994A3296 /* Classes */,
+			);
+			name = Insurance;
+			path = Insurance;
+			sourceTree = "<group>";
+		};
+		C8E251E20C5A6610ECFB1C77B843EDAB /* Pods-Insurance_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F320EF30C6ACA6CC19A879C00B79DC /* Info.plist */,
+				6C798373D7B425EE03FA338BF8EA3BB0 /* Pods-Insurance_Tests.modulemap */,
+				4DD33B43C9A20C4BC88BA3AE78B21533 /* Pods-Insurance_Tests-acknowledgements.markdown */,
+				7FED106AD779293997408A872C42A429 /* Pods-Insurance_Tests-acknowledgements.plist */,
+				B04063DB6A71A8FC6D7B0ACC5441B6AE /* Pods-Insurance_Tests-dummy.m */,
+				BD5E4DEC8553344995C1947C00C23ED6 /* Pods-Insurance_Tests-frameworks.sh */,
+				DC76F3E8C533039BCC32D5254635E5AB /* Pods-Insurance_Tests-resources.sh */,
+				82621FCF121B495AC0F7EB50EBC2C6E9 /* Pods-Insurance_Tests-umbrella.h */,
+				9108A77AE172269D8831ECED26096BEF /* Pods-Insurance_Tests.debug.xcconfig */,
+				635D86781BCC3E5034CED13D87D5935E /* Pods-Insurance_Tests.release.xcconfig */,
+			);
+			name = "Pods-Insurance_Tests";
+			path = "Target Support Files/Pods-Insurance_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DCDBC0D10315CB382BB616ACD7CAB139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC76513B0A794BC0EC629D1A21621EC9 /* Insurance.bundle */,
+				D7D4767AE62401E91D19A31C5D3F5B2D /* Insurance.framework */,
+				D91385B95230A642C8DF627DB59202D9 /* Pods_Insurance_Example.framework */,
+				D07B7178B51DF2D742B33814CAD0D312 /* Pods_Insurance_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF1503DB9E6777D2FBE8B1C1CB31EA55 /* Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				F97B55C34347CBA22126D913E7703B2A /* Classes */,
+			);
+			name = Insurance;
+			path = Insurance;
+			sourceTree = "<group>";
+		};
+		F97B55C34347CBA22126D913E7703B2A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0342223CD323E852C9EC74857CAF7F72 /* InsuranceViewController.xib */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DE9FE31CDB38D51AEB2AC781E187E80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9FF0171478238B3ED35C7683B58642 /* Insurance-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7215EF224B5D786C8DD823CE6CE62E01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9026D6F7B33ED85B6B06B3B2347A202A /* Pods-Insurance_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B789DD0788BB7E6F46656B3675058EC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9909FB6D9DB4443318526E233E7CFA6B /* Pods-Insurance_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15518DFBF5018417E922FE70FA255F2B /* Insurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139EDAAE8D0BC023536E7597701D37A8 /* Build configuration list for PBXNativeTarget "Insurance" */;
+			buildPhases = (
+				7C6C0A33113226A243768C8E34022260 /* Sources */,
+				4E28C7436426A48E6EE319292EDF1B90 /* Frameworks */,
+				98075F4BE16D2543C746543FEAFDCE49 /* Resources */,
+				1DE9FE31CDB38D51AEB2AC781E187E80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B71106DB85BDD20D1EE469B9BDBFE5 /* PBXTargetDependency */,
+			);
+			name = Insurance;
+			productName = Insurance;
+			productReference = D7D4767AE62401E91D19A31C5D3F5B2D /* Insurance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50CA8149F7EC386CDD34A6C7B659A22C /* Pods-Insurance_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15517486C340D8739B03A924C81B5D3 /* Build configuration list for PBXNativeTarget "Pods-Insurance_Example" */;
+			buildPhases = (
+				702432BFECF72FDB069BE6F915ED43E5 /* Sources */,
+				DEA94D11925F68626B294F7449E72A50 /* Frameworks */,
+				7215EF224B5D786C8DD823CE6CE62E01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D814F38F6E4F786E297FD40F67CC2E /* PBXTargetDependency */,
+			);
+			name = "Pods-Insurance_Example";
+			productName = "Pods-Insurance_Example";
+			productReference = D91385B95230A642C8DF627DB59202D9 /* Pods_Insurance_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		780D4716FAE3507A305E1A05CEBF37A3 /* Pods-Insurance_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599C988A80A5E6CAEBDE620706CEB6F2 /* Build configuration list for PBXNativeTarget "Pods-Insurance_Tests" */;
+			buildPhases = (
+				22C46094B69B630A56A71532681C4023 /* Sources */,
+				6892BF39EC66CFF16DCE451B477FF64C /* Frameworks */,
+				B789DD0788BB7E6F46656B3675058EC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Insurance_Tests";
+			productName = "Pods-Insurance_Tests";
+			productReference = D07B7178B51DF2D742B33814CAD0D312 /* Pods_Insurance_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8459A79F05F75787B9AAD19FEDD3215A /* Insurance-Insurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E471E79D12893371EF23EBFEBAA1F315 /* Build configuration list for PBXNativeTarget "Insurance-Insurance" */;
+			buildPhases = (
+				B7971C614A0F3FC40C1D2BA06FC7AA1D /* Sources */,
+				F4C40BCA40B12DD480BD7D3DFFBA4C35 /* Frameworks */,
+				B988FC304B098E79B6F823E95AA7C7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insurance-Insurance";
+			productName = "Insurance-Insurance";
+			productReference = FC76513B0A794BC0EC629D1A21621EC9 /* Insurance.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DCDBC0D10315CB382BB616ACD7CAB139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15518DFBF5018417E922FE70FA255F2B /* Insurance */,
+				8459A79F05F75787B9AAD19FEDD3215A /* Insurance-Insurance */,
+				50CA8149F7EC386CDD34A6C7B659A22C /* Pods-Insurance_Example */,
+				780D4716FAE3507A305E1A05CEBF37A3 /* Pods-Insurance_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98075F4BE16D2543C746543FEAFDCE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33816A452B6D10FA8602B91E3937C073 /* Insurance.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B988FC304B098E79B6F823E95AA7C7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3FB9B9D19D48E11A1E4E3D749F9C90 /* InsuranceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C46094B69B630A56A71532681C4023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AABB76C850BEC7339AB7B7AD08C5BE4 /* Pods-Insurance_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702432BFECF72FDB069BE6F915ED43E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7BEF445D3F9C905B2D3E204E616F42 /* Pods-Insurance_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C0A33113226A243768C8E34022260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323415CC31DED8E649B707D0F66EA9BB /* Insurance-dummy.m in Sources */,
+				065DE29303F49D1E87CFF7A7AC56CC09 /* InsuranceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7971C614A0F3FC40C1D2BA06FC7AA1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38D814F38F6E4F786E297FD40F67CC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Insurance;
+			target = 15518DFBF5018417E922FE70FA255F2B /* Insurance */;
+			targetProxy = 8961C85CDFD0F74D9566858DBB265E34 /* PBXContainerItemProxy */;
+		};
+		A2B71106DB85BDD20D1EE469B9BDBFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Insurance-Insurance";
+			target = 8459A79F05F75787B9AAD19FEDD3215A /* Insurance-Insurance */;
+			targetProxy = 4E21926FE8D9CD3B7E86B07679CA3ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15F0034CE7C323311FC855740B18785C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635D86781BCC3E5034CED13D87D5935E /* Pods-Insurance_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Insurance_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insurance_Tests/Pods-Insurance_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Insurance_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2997998A47A80B005793D9BBB6BB8500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3832174228B3A4CAA6F96EB76BFA6987 /* Insurance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Insurance/Insurance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Insurance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Insurance/Insurance.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Insurance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45007FAA396860A9FEDC86858B92DCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1CAFCDA0A7989E0990D3A5ED846BCB /* Pods-Insurance_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Insurance_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insurance_Example/Pods-Insurance_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Insurance_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EB9984AD61190F8F6D9AA5692603469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9108A77AE172269D8831ECED26096BEF /* Pods-Insurance_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Insurance_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insurance_Tests/Pods-Insurance_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Insurance_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97A2F6D4D80BCCE360BD3A3BF58F8FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3832174228B3A4CAA6F96EB76BFA6987 /* Insurance.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Insurance";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Insurance/ResourceBundle-Insurance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Insurance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B0F71A5BA1A420420AB4CE0C884B8FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3832174228B3A4CAA6F96EB76BFA6987 /* Insurance.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Insurance";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Insurance/ResourceBundle-Insurance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Insurance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D0BA47C2D21073597E50DC70A76280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3832174228B3A4CAA6F96EB76BFA6987 /* Insurance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Insurance/Insurance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Insurance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Insurance/Insurance.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Insurance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6AD8A017D5A5CDC4059C9792D5EA858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C432047910E4D76E8D6BD941127AEBBD /* Pods-Insurance_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Insurance_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insurance_Example/Pods-Insurance_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Insurance_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139EDAAE8D0BC023536E7597701D37A8 /* Build configuration list for PBXNativeTarget "Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D0BA47C2D21073597E50DC70A76280 /* Debug */,
+				2997998A47A80B005793D9BBB6BB8500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599C988A80A5E6CAEBDE620706CEB6F2 /* Build configuration list for PBXNativeTarget "Pods-Insurance_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB9984AD61190F8F6D9AA5692603469 /* Debug */,
+				15F0034CE7C323311FC855740B18785C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15517486C340D8739B03A924C81B5D3 /* Build configuration list for PBXNativeTarget "Pods-Insurance_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AD8A017D5A5CDC4059C9792D5EA858 /* Debug */,
+				45007FAA396860A9FEDC86858B92DCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E471E79D12893371EF23EBFEBAA1F315 /* Build configuration list for PBXNativeTarget "Insurance-Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F71A5BA1A420420AB4CE0C884B8FC1 /* Debug */,
+				97A2F6D4D80BCCE360BD3A3BF58F8FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
