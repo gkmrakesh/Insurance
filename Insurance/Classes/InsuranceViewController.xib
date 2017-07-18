@@ -114,10 +114,27 @@
                         <constraint firstItem="1zD-3L-n9S" firstAttribute="centerX" secondItem="Bsc-GC-EQc" secondAttribute="centerX" id="qDq-gQ-tWD"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRV-2T-0wZ">
+                    <rect key="frame" x="10" y="555" width="355" height="60"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="xZr-SA-Lxw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="Continue">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ButtonTapped:" destination="-1" eventType="touchUpInside" id="bMR-ww-RHX"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="sRV-2T-0wZ" secondAttribute="bottom" constant="52" id="F0H-cT-TzG"/>
+                <constraint firstItem="sRV-2T-0wZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="Ygm-RY-WZF"/>
                 <constraint firstItem="Bsc-GC-EQc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="fSC-Yl-UQt"/>
+                <constraint firstAttribute="trailing" secondItem="sRV-2T-0wZ" secondAttribute="trailing" constant="10" id="kpS-xc-kqe"/>
                 <constraint firstItem="Bsc-GC-EQc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ta1-0J-FZT"/>
             </constraints>
             <point key="canvasLocation" x="-58" y="-19"/>

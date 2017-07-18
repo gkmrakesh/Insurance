@@ -23,9 +23,14 @@ class ViewController: UIViewController {
         
         viewController = InsuranceViewController(nibName: "InsuranceViewController", bundle: bundle)
         
+        viewController?.callbackOnContinue=insuranceTapped
         viewController?.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
         self.view.addSubview((viewController?.view)!)
         
+    }
+    
+    func insuranceTapped(_ insurance:Bool) {
+        print(insurance)
     }
 
 }
