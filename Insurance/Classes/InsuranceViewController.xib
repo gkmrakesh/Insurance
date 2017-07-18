@@ -128,10 +128,30 @@
                         <action selector="ButtonTapped:" destination="-1" eventType="touchUpInside" id="bMR-ww-RHX"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7z8-ei-0nH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="External airline page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucF-cp-fiv">
+                            <rect key="frame" x="84" y="22" width="206.5" height="27.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="ucF-cp-fiv" firstAttribute="centerX" secondItem="7z8-ei-0nH" secondAttribute="centerX" id="6b3-bU-hKD"/>
+                        <constraint firstItem="ucF-cp-fiv" firstAttribute="centerY" secondItem="7z8-ei-0nH" secondAttribute="centerY" id="8Kw-AP-xfE"/>
+                        <constraint firstAttribute="height" constant="70" id="Iso-J2-6ck"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="7z8-ei-0nH" secondAttribute="trailing" id="DUU-me-bs1"/>
                 <constraint firstAttribute="bottom" secondItem="sRV-2T-0wZ" secondAttribute="bottom" constant="52" id="F0H-cT-TzG"/>
+                <constraint firstItem="7z8-ei-0nH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TvO-FB-zdx"/>
+                <constraint firstItem="7z8-ei-0nH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="X2E-YZ-AEy"/>
                 <constraint firstItem="sRV-2T-0wZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="Ygm-RY-WZF"/>
                 <constraint firstItem="Bsc-GC-EQc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="fSC-Yl-UQt"/>
                 <constraint firstAttribute="trailing" secondItem="sRV-2T-0wZ" secondAttribute="trailing" constant="10" id="kpS-xc-kqe"/>
