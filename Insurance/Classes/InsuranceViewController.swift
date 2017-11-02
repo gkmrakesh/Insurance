@@ -2,7 +2,7 @@
 //  InsuranceViewController.swift
 //  Pods
 //
-//  Created by Rakesh MEMBARAM on 17/7/17.
+//  Created by Rakesh on 17/7/17
 //
 //
 
