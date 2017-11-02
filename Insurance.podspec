@@ -36,6 +36,8 @@ TODO: Add long description of the pod here.
     'Insurance' => ['Insurance/**/*.xib']
   }
 
+  s.dependency 'ReSwift', '4.0.0'
+
   # s.resource_bundles = {
   #   'Insurance' => ['Insurance/Assets/*.png']
   # }
